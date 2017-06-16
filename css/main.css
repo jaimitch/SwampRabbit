@@ -1,0 +1,154 @@
+@font-face {
+    font-family: "Oleo Script";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Oleo Script"), url("http://fonts.gstatic.com/s/oleoscript/v5/_weQNDK6Uf40CiGFKBBUjogp9Q8gbYrhqGlRav_IXfk.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Poiret One";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Poiret One"), url("http://fonts.gstatic.com/s/poiretone/v4/HrI4ZJpJ3Fh0wa5ofYMK8QzyDMXhdD8sAj6OAJTFsBI.woff2") format("woff2");
+}
+
+*{
+  block-size: border-box;
+}
+
+
+body {
+  background: black;
+  margin: 25px;
+  border: 50px;
+}
+
+.site-header {
+  background-image: url("../img/header-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 100px;
+  width: 1030px;
+  height: 400px;
+}
+
+.header-wrapper {
+  position: relative;
+}
+
+.logo {
+  background-image: url("../img/logo.png");
+  filter: invert(1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20px;
+  width: 20px;
+  padding: 80px;
+  border: 50px;
+  position: absolute;
+  top: 90px;
+  right: 70px;
+}
+.main-heading {
+  padding: 90px 100px 0px 100px;
+  font-size: 60px;
+  color: white;
+  text-shadow: 2px 2px grey;
+  font-family: "Poiret One";
+}
+
+.divider {
+  color: #808080;
+  width: 600px;
+  border: solid white 2px;
+}
+
+.subheader-msg {
+  font-size: 18px;
+  font-family: "Oleo Script";
+  color: white;
+  text-shadow: 2px 2px grey;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.site-imgs {
+  background-color: white;
+  padding: 50px;
+  border: 50px;
+  height: 300px;
+}
+
+#left-img {
+  background-image: url("../img/left-img.jpg");
+}
+
+#middle-img {
+  background-image: url("../img/middle-img.jpg");
+}
+
+#right-img {
+  background-image: url("../img/right-img.jpg");
+}
+
+
+.callout-wrapper {
+  font-family: "Poiret One";
+  background-color: #339966;
+  color: white;
+  text-shadow: 2px 2px grey;
+  font-size: 30px;
+  padding: 50px;
+  border: 50px;
+  margin: 0px;
+  text-align: center;
+}
+
+.contact-wrapper {
+  background-color: white;
+  padding: 50px;
+  border: 50px;
+  margin: 0px;
+  font-family: "Poiret One";
+  color: gray;
+  font-size: 25px;
+  text-align: center;
+}
+
+.contact-phone {
+  font-size: 30px;
+}
+
+.contact-email {
+  font-size: 30px;
+  color: black;
+}
+
+.footer-wrapper {
+  background: grey;
+  text-align: center;
+  padding: 10px;
+  border: 10px;
+  margin: 0px;
+  color: white;
+}
+
+.image-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  width: 1000px;
+  height: 317px;
+}
+
+.single-img-card {
+  background-size: cover;
+  display: inline-block;
+  height: 275px;
+  width: 308px;
+}
+
